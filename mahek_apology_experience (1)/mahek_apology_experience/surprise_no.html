@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Special Surprise</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/animations.js" defer></script>
+</head>
+<body class="surprise_no">
+  <audio id="bgAudio" loop autoplay>
+    <source src="assets/music/duniyaa.mp4" type="audio/mp4">
+    Your browser does not support the background audio.
+  </audio>
+  <div class="page">
+<div class="center letter">
+  <h1>But this one is special… please open it? 🥺</h1>
+  <p class="small">Babu please…</p>
+  <button id="back" style="display:none" onclick="location.href='surprises.html'">Go back</button>
+  <script>setTimeout(()=>document.getElementById('back').style.display='inline-block',5000);</script>
+</div>
+
+  </div>
+</body>
+</html>
